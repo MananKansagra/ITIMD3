@@ -8,5 +8,6 @@ public class hello {
         // System.out.println is used to print the string to the console,
         // followed by a newline character.
         System.out.println("Hello, World!");
+        System.out.println("Hello, World2!");
     }
 }
