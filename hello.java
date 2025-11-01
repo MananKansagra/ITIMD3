@@ -1,4 +1,4 @@
-public class HelloWorld {
+public class hello {
 
     /**
      * The main entry point for the Java application.
