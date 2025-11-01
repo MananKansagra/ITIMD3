@@ -3,7 +3,7 @@ pipeline {
 
     environment {
         GIT_REPOSITORY_URL = 'https://github.com/MananKansagra/ITIMD3.git'
-        DOCKER_IMAGE_NAME = 'manan1054/ITIMD3'
+        DOCKER_IMAGE_NAME = 'manan1054/itim3'
         IMAGE_TAG = '1.0'
     }
 
