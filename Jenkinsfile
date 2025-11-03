@@ -3,7 +3,7 @@ pipeline {
 
     environment {
         GIT_REPOSITORY_URL = 'https://github.com/pradnyakool/ITIMD3.git'
-        DOCKER_IMAGE_NAME = 'nikpri/itim3'
+        DOCKER_IMAGE_NAME = 'itim3'
         IMAGE_TAG = '1.0'
     }
 
@@ -38,7 +38,7 @@ pipeline {
             steps {
                 script {
                     try {
-                        withCredentials([usernamePassword(credentialsId: 'my-dockerhub-credentials', 
+                        withCredentials([usernamePassword(credentialsId: 'my-docker-hub-credentials-id', 
                                                          usernameVariable: 'DOCKER_USERNAME', 
                                                          passwordVariable: 'DOCKER_PASSWORD')]) {
                             // Explicit login before push
