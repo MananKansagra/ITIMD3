@@ -2,8 +2,8 @@ pipeline {
     agent any
 
     environment {
-        GIT_REPOSITORY_URL = 'https://github.com/MananKansagra/ITIMD3.git'
-        DOCKER_IMAGE_NAME = 'manan1054/itim3'
+        GIT_REPOSITORY_URL = 'https://github.com/pradnyakool/ITIMD3.git'
+        DOCKER_IMAGE_NAME = 'pradnyakool/itim3'
         IMAGE_TAG = '1.0'
     }
 
